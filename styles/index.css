@@ -1,7 +1,7 @@
 /* 全局样式 */
 body {
     background-color: #fef4dd;
-    color: #4c4948;
+    color: #7a5a43;
 }
 
 /* 页首 */
@@ -24,8 +24,8 @@ body {
 
 /* 个人信息 */
 .primary-container > .left-area > .cards > .card-item#personal-info > .social-icons i {
-    background-color: #f3896a;
-    color: #ffd998;
+    background-color: #f59768;
+    color: #ffdb9a;
 }
 
 /* - 浏览设置 */
@@ -33,13 +33,13 @@ body {
     padding: 8px 10px;
     background-color: #f5eedd;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
-    color: #4c4948;
+    color: unset;
 }
 
 /* 主题设置 */
 .primary-container > .left-area > .cards > .card-item > .content > .settings-item > .themes > .theme-item.enable {
     box-shadow: unset;
-    border: 1px solid #f3896a;
+    border: 1px solid #c1a177;
 }
 /* - 浏览设置 End */
 
@@ -55,6 +55,6 @@ body {
 }
 
 .footer .icp-link {
-    color: #4c4948;
+    color: #7a5a43;
 }
 /* - 页脚 End */

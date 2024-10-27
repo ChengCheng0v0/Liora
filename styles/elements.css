@@ -33,11 +33,11 @@ body::-webkit-scrollbar-thumb:active {
 
 /* - 分割线 */
 hr {
-    border: 2px dashed #f0bb5f;
+    border: 2px dashed #c1a177;
 }
 
 hr:before {
-    color: #f3896a;
+    color: #f59768;
 }
 /* - 分割线 End */
 
@@ -48,5 +48,5 @@ h3,
 h4,
 h5,
 h6 {
-    color: #f3896a;
+    color: #ae7954;
 }
