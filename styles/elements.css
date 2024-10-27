@@ -50,3 +50,15 @@ h5,
 h6 {
     color: #ae7954;
 }
+
+/* - 超链接 */
+a {
+    color: #f59768;
+    background: linear-gradient(to right, #f5d09f, #f5d09f) no-repeat right bottom;
+    background-size: 0 2px;
+}
+
+.right-area a:hover {
+    color: #f59768;
+}
+/* - 超链接 End */
