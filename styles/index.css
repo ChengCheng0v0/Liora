@@ -39,7 +39,7 @@ body {
 /* 主题设置 */
 .primary-container > .left-area > .cards > .card-item > .content > .settings-item > .themes > .theme-item.enable {
     box-shadow: unset;
-    border-bottom: 2px solid #858585;
+    border: 1px solid #f3896a;
 }
 /* - 浏览设置 End */
 

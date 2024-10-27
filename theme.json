@@ -18,12 +18,12 @@
                 },
                 "icon": {
                     "icon": "fa-solid fa-sun",
-                    "color": "#000000",
-                    "background": "#eeeeee"
+                    "color": "#f3896a",
+                    "background": "#fff9ea"
                 }
             },
-            "night": {
-                "displayName": "Night",
+            "moon": {
+                "displayName": "Moon",
                 "files": {
                     "styles": ["elements.css", "index.css"],
                     "scripts": []
@@ -35,6 +35,6 @@
                 }
             }
         },
-        "index": ["sun", "night"]
+        "index": ["sun", "moon"]
     }
 }
