@@ -23,6 +23,24 @@ body::-webkit-scrollbar-thumb:active {
 }
 /* - 滚动条 End */
 
+/* 文本选中 */
+::selection {
+    text-decoration: unset;
+    text-decoration-color: unset;
+    text-shadow: unset;
+    background-color: #f5d09f;
+}
+
+/* - 分割线 */
+hr {
+    border: 2px dashed #f0bb5f;
+}
+
+hr:before {
+    color: #f3896a;
+}
+/* - 分割线 End */
+
 /* - 标题 */
 h1,
 h2,

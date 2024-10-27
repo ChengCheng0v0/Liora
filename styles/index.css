@@ -21,19 +21,24 @@ body {
 .primary-container > .left-area > .cards > .card-item {
     background-color: #fff9ea;
 }
+
+/* - 个人信息 */
+.primary-container > .left-area > .cards > .card-item#personal-info > .social-icons i {
+    background-color: #f3896a;
+    color: #ffd998;
+}
+
 /* - 浏览设置 */
 .primary-container > .left-area > .cards > .card-item > .content > .settings-item {
-    background-color: #fff9ea;
-    color: #000000;
+    background-color: #ffdbb0;
+    color: #4c4948;
 }
 
 /* - 主题设置 */
-.primary-container > .left-area > .cards > .card-item > .content > .settings-item > .themes {
+.primary-container > .left-area > .cards > .card-item > .content > .settings-item > .themes > .theme-item.enable {
+    /* border: 2px solid #e87a90; */
+    box-shadow: 0px 0px 2px 2px #f08d6f;
 }
-
-.primary-container > .left-area > .cards > .card-item > .content > .settings-item > .themes > .theme-item {
-}
-/* - 主题设置 End */
 /* - 浏览设置 End */
 
 /* - 左侧卡片 End */
