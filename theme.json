@@ -1,0 +1,40 @@
+{
+    "id": "liora",
+    "name": "Liora",
+    "version": "1.0.0",
+    "author": "成成0v0 (hic.top, chengcheng@miao.ms)",
+    "repo": "https://github.com/ChengCheng0v0/Liora",
+    "files": {
+        "styles": ["elements.css", "index.css"],
+        "scripts": []
+    },
+    "colors": {
+        "list": {
+            "sun": {
+                "displayName": "Sun",
+                "files": {
+                    "styles": ["elements.css", "index.css"],
+                    "scripts": []
+                },
+                "icon": {
+                    "icon": "fa-solid fa-sun",
+                    "color": "#000000",
+                    "background": "#eeeeee"
+                }
+            },
+            "night": {
+                "displayName": "Night",
+                "files": {
+                    "styles": ["elements.css", "index.css"],
+                    "scripts": []
+                },
+                "icon": {
+                    "icon": "fa-solid fa-moon",
+                    "color": "#ffffff",
+                    "background": "#1c1c1c"
+                }
+            }
+        },
+        "index": ["sun", "night"]
+    }
+}

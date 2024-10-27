@@ -1,0 +1,53 @@
+/* 全局样式 */
+body {
+    background-color: #fef4dd;
+    color: #4c4948;
+}
+
+/* - 页首 */
+.page-head {
+    background-color: #fff5e0;
+    background-image: url(../assets/images/page-head/wallhaven-zyjp5g.png);
+    background-size: cover;
+    background-position: center 30%;
+}
+
+/* 内容版块 */
+.primary-container > .right-area > .content-page {
+    background-color: #fff9ea;
+}
+
+/* - 左侧卡片 */
+.primary-container > .left-area > .cards > .card-item {
+    background-color: #fff9ea;
+}
+/* - 浏览设置 */
+.primary-container > .left-area > .cards > .card-item > .content > .settings-item {
+    background-color: #fff9ea;
+    color: #000000;
+}
+
+/* - 主题设置 */
+.primary-container > .left-area > .cards > .card-item > .content > .settings-item > .themes {
+}
+
+.primary-container > .left-area > .cards > .card-item > .content > .settings-item > .themes > .theme-item {
+}
+/* - 主题设置 End */
+/* - 浏览设置 End */
+
+/* - 左侧卡片 End */
+
+/* - 页脚 */
+.footer {
+    background-color: #ebdcb8;
+}
+
+.footer > .line-break {
+    color: #aaaaaa;
+}
+
+.footer .icp-link {
+    color: #4c4948;
+}
+/* - 页脚 End */
