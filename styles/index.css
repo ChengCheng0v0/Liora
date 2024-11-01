@@ -4,13 +4,20 @@ body {
     color: #7a5a43;
 }
 
-/* 页首 */
+/* - 页首 */
 .page-head {
     background-color: #fff5e0;
     background-image: url(../assets/images/page-head/wallhaven-zyjp5g.png);
     background-size: cover;
     background-position: center 30%;
+    transition: height ease 1s, margin ease-in 0.25s;
 }
+
+.page-head.expand {
+    height: 100vh;
+    margin-bottom: 30px;
+}
+/* - 页首 End */
 
 /* 内容版块 */
 .primary-container > .right-area > .content-page {

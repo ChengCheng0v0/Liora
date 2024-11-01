@@ -6,7 +6,7 @@
     "repo": "https://github.com/ChengCheng0v0/Liora",
     "files": {
         "styles": ["elements.css", "index.css"],
-        "scripts": []
+        "scripts": ["reload-fix.js", "index.js"]
     },
     "colors": {
         "list": {
