@@ -13,7 +13,7 @@ body {
     transition: height ease 1s, margin ease-in 0.25s;
 
     * {
-        transition: margin ease 1s;
+        transition: margin ease 1s, text-shadow ease 1s;
     }
 }
 
@@ -23,6 +23,7 @@ body {
 
     * {
         margin-top: calc(100vh * 0.25);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 }
 /* - 页首 End */
