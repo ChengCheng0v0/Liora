@@ -11,11 +11,19 @@ body {
     background-size: cover;
     background-position: center 30%;
     transition: height ease 1s, margin ease-in 0.25s;
+
+    * {
+        transition: margin ease 1s;
+    }
 }
 
 .page-head.expand {
     height: 100vh;
     margin-bottom: 30px;
+
+    * {
+        margin-top: calc(100vh * 0.25);
+    }
 }
 /* - 页首 End */
 
