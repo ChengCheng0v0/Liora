@@ -28,20 +28,20 @@ git clone https://github.com/ChengCheng0v0/Liora.git {ACG-Home_Path}/assets/them
 在 ACG-Home 根目录中找到 `config.json` 文件并编辑其内容，将 `theme` 项的值设置为：
 
 ```json
-"theme": "defdark",
-"displayName": "ACG-Home",
+"theme": "liora",
+"displayName": "Liora",
 "colors": {
     "autoSwitch": {
         "displayName": "Auto",
-        "light": "light",
-        "dark": "dark",
+        "light": "sun",
+        "dark": "moon",
         "icon": {
             "icon": "fa-solid fa-circle-half-stroke",
             "color": "#808080",
             "background": "linear-gradient(45deg, #eeeeee 50%, #1c1c1c 50%)"
         }
     },
-    "enable": ["light", "!autoSwitch", "dark"],
+    "enable": ["sun", "!autoSwitch", "moon"],
     "default": "!autoSwitch"
 }
 ```
@@ -52,20 +52,20 @@ git clone https://github.com/ChengCheng0v0/Liora.git {ACG-Home_Path}/assets/them
 {
     "title": "成成0v0 の 个人网站",
     "theme": {
-        "theme": "defdark",
-        "displayName": "ACG-Home",
+        "theme": "liora",
+        "displayName": "Liora",
         "colors": {
             "autoSwitch": {
                 "displayName": "Auto",
-                "light": "light",
-                "dark": "dark",
+                "light": "sun",
+                "dark": "moon",
                 "icon": {
                     "icon": "fa-solid fa-circle-half-stroke",
                     "color": "#808080",
                     "background": "linear-gradient(45deg, #eeeeee 50%, #1c1c1c 50%)"
                 }
             },
-            "enable": ["light", "!autoSwitch", "dark"],
+            "enable": ["sun", "!autoSwitch", "moon"],
             "default": "!autoSwitch"
         }
     },
