@@ -10,10 +10,14 @@ body {
     background-image: url(../assets/images/page-head/wallhaven-zyjp5g.png);
     background-size: cover;
     background-position: center 30%;
-    transition: height ease 1s, margin ease-in 0.25s;
+    transition:
+        height ease 1s,
+        margin ease-in 0.25s;
 
     * {
-        transition: margin ease 1s, text-shadow ease 1s;
+        transition:
+            margin ease 1s,
+            text-shadow ease 1s;
     }
 }
 
@@ -31,6 +35,11 @@ body {
 /* 内容版块 */
 .primary-container > .right-area > .content-page {
     background-color: #fff9ea;
+}
+
+/* 内容板块的贴纸 */
+.primary-container > .right-area > .content-page::before {
+    background-color: #ebdcb8;
 }
 
 /* - 左侧卡片 */

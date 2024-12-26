@@ -17,6 +17,11 @@ body {
     background-color: #1e1e2e;
 }
 
+/* 内容板块的贴纸 */
+.primary-container > .right-area > .content-page::before {
+    background-color: #504262;
+}
+
 /* - 左侧卡片 */
 .primary-container > .left-area > .cards > .card-item {
     background-color: #1e1e2e;
