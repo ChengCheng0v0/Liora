@@ -62,3 +62,27 @@ a {
     color: var(--color-accent);
 }
 /* - 超链接 End */
+
+/* 行内代码 */
+code {
+    font-family: inherit;
+    padding: 1px 5px 1px 5px;
+    border-radius: 6px;
+    background-color: var(--color-outline);
+}
+
+/* 代码块 */
+pre {
+    font-family: inherit;
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color: var(--color-outline);
+
+    code {
+        padding: unset;
+        border-radius: unset;
+        background-color: unset;
+
+        font-family: inherit;
+    }
+}
