@@ -1,0 +1,15 @@
+:root {
+    --color-base: #1e1e2e;
+    --color-mantle: #2e2e3e;
+    --color-crust: #20202f;
+    --color-dent: #2e2e3e;
+    --color-text: #e3bfd3;
+    --color-text-selection: #d08a9a;
+    --color-key: #c48fad;
+    --color-weak: #423e4a;
+    --color-divide: #a67a8a;
+    --color-outline: #d08a9a;
+    --color-accent: #ff95af;
+    --color-accent-fg: #503843;
+    --color-overlay: #504262;
+}

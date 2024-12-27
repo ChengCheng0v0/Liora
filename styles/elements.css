@@ -28,16 +28,16 @@ body::-webkit-scrollbar-thumb:active {
     text-decoration: unset;
     text-decoration-color: unset;
     text-shadow: unset;
-    background-color: #f5d09f;
+    background-color: var(--color-text-selection);
 }
 
 /* - 分割线 */
 hr {
-    border: 2px dashed #c1a177;
+    border: 2px dashed var(--color-divide);
 }
 
 hr:before {
-    color: #f59768;
+    color: var(--color-accent);
 }
 /* - 分割线 End */
 
@@ -48,17 +48,17 @@ h3,
 h4,
 h5,
 h6 {
-    color: #ae7954;
+    color: var(--color-key);
 }
 
 /* - 超链接 */
 a {
-    color: #f59768;
-    background: linear-gradient(to right, #f5d09f, #f5d09f) no-repeat right bottom;
+    color: var(--color-accent);
+    background: linear-gradient(to right, var(--color-text-selection), var(--color-text-selection)) no-repeat right bottom;
     background-size: 0 2px;
 }
 
 .right-area a:hover {
-    color: #f59768;
+    color: var(--color-accent);
 }
 /* - 超链接 End */

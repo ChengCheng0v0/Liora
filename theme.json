@@ -5,7 +5,7 @@
     "author": "成成0v0 (hic.top, chengcheng@miao.ms)",
     "repo": "https://github.com/ChengCheng0v0/Liora",
     "files": {
-        "styles": ["elements.css", "index.css"],
+        "styles": ["colors.css", "elements.css", "index.css"],
         "scripts": ["reload-fix.js", "index.js"]
     },
     "colors": {
@@ -13,7 +13,7 @@
             "sun": {
                 "displayName": "Sun",
                 "files": {
-                    "styles": ["elements.css", "index.css"],
+                    "styles": [],
                     "scripts": []
                 },
                 "icon": {
@@ -25,7 +25,7 @@
             "moon": {
                 "displayName": "Moon",
                 "files": {
-                    "styles": ["elements.css", "index.css"],
+                    "styles": ["index.css", "colors.css"],
                     "scripts": []
                 },
                 "icon": {
