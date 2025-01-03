@@ -12,4 +12,10 @@
     --color-accent: #f59768;
     --color-accent-fg: #ffdb9a;
     --color-overlay: #ebdcb8;
+    --color-positive: #a8cf88;
+    --color-positive-fg: #4c634e;
+    --color-danger: #e07a83;
+    --color-danger-fg: #723033;
+    --color-warning: #f9d48b;
+    --color-warning-fg: #8b5a2d;
 }
